@@ -5,5 +5,15 @@ GRIS CLARO #
 */
 *{
 	font-family: 'Dosis', sans-serif;
+	background-color: #3E3F41;
+}
 
+.logoSec1{
+	width: 50%;
+	padding-top: 30%;
+}
+
+.titSec1{
+	color: #F4A728;
+	font-size: 30px;
 }
