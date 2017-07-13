@@ -4,10 +4,24 @@ NARANJO LOGO #F4A728
 GRIS CLARO #
 */
 *{
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
 	background-color: #3E3F41;
 }
 
+a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+a:hover{
+	text-decoration: none;
+	color: gray;
+}
+
+/* Seccion 1 - HTML 1 */
 .logoSec1{
 	width: 50%;
 	padding-top: 30%;
@@ -15,5 +29,49 @@ GRIS CLARO #
 
 .titSec1{
 	color: #F4A728;
-	font-size: 30px;
+	font-size: 35px;
+	font-weight: bold;
 }
+/* Fin Seccion 1 - HTML 1 */
+
+/* Seccion 2 - HTML 1 */
+.fondoFormSec2{
+	background-color: white;
+}
+
+.botonSec1{
+	background-color: #F4A728;
+	width: 95%;
+}
+
+.jhgh:hover{
+	color: #F4A728;
+}
+
+.botonSec1:hover { /* Efecto Hover */
+ background: rgba(0,0,0,0);
+ color: #F4A728;
+ box-shadow: inset 0 0 0 3px #F4A728;
+}
+
+/* enlace ¿password? */
+
+.enlaceContrasenaSec1{
+	font-size: 15px;
+	font-weight: lighter;
+}
+
+.cajaEnlacesSec1A{
+	padding-top: 10%;
+	padding-right: 5%;
+	padding-left: 12%;
+	padding-bottom: 10%;
+}
+
+.enlaceContrasenaSec1Amarillo{
+	color: #F4A728;
+}
+
+
+
+/* Fin Seccion 2 - HTML 1 */
