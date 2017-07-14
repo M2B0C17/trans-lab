@@ -5,10 +5,8 @@ GRIS CLARO #
 */
 *{
 	font-family: 'Josefin Sans', sans-serif;
-}
-
-body{
-	background-color: #3E3F41;
+	padding: 0;
+	margin: 0;
 }
 
 a{
@@ -22,6 +20,9 @@ a:hover{
 }
 
 /* Seccion 1 - HTML 1 */
+.body1{
+	background-color: #3E3F41;
+}
 .logoSec1{
 	width: 50%;
 	padding-top: 30%;
@@ -72,6 +73,62 @@ a:hover{
 	color: #F4A728;
 }
 
+/* Fin HTML 1 */
 
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
-/* Fin Seccion 2 - HTML 1 */
+/* HTML 2 */
+
+.indexSec2A{
+	z-index: 2;	
+}
+
+.body2{
+	background-color: lightgray;
+}
+
+.navbar{
+	background-color: black;
+	width: 100%;
+	height: 60px;
+}
+
+.logoSec2Nav{
+	color: lightgray;
+	padding-left: 13%;
+}
+
+.collapseMediano{
+	width: 70%;
+	height: 95vh;
+	background-color: white;
+}
+
+.hamburg{
+	background-color: black;
+}
+
+.fondoDesplegue{
+	width: 60%;
+	height: 500vh;
+	background-color: white;
+}
+
+/* Icono Collapsed */
+.iconAmarillo{
+	color: #F4A728;
+}
+
+/* BTN */
+
+.indexSec2{
+	z-index: -1;
+}
+
+.marginBTNSec2{
+	margin: 3%;
+}
+
+.topBTNSEC2{
+	margin-top: 15%;
+}
