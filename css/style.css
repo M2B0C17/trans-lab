@@ -172,3 +172,35 @@ a:hover{
 	border-radius: 4px;
 	color: lightgray;
 }
+
+/* Fin HTML 3 */
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* HTML 4 */
+
+.basePreguntasFrec{
+	height: 40vh;
+}
+
+.titSec4{
+	color: white;
+	font-weight: lighter;
+	padding-top: 13%;
+}
+
+.titSec4Acordeon{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.textSec4Acordeon{
+	font-size: 10px;
+}
+
+.topBaseAcordeon{
+	padding-top: 15%;
+	padding-bottom: 10%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
