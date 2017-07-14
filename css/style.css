@@ -20,6 +20,10 @@ a:hover{
 }
 
 /* Seccion 1 - HTML 1 */
+.textMenuHtmls{
+	font-size: 20px;
+}
+
 .body1{
 	background-color: #3E3F41;
 }
