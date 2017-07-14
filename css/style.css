@@ -132,3 +132,43 @@ a:hover{
 .topBTNSEC2{
 	margin-top: 15%;
 }
+
+/* Fin HTML 2 */
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* HTML 3 */
+.profile-userpic img {
+  float: none;
+  margin: 0 auto;
+  width: 70%;
+  height: 70%;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+
+.body3{
+	background-color: #F4A728;
+}
+
+.fondoSec3{
+	background-color: lightgray;
+}
+
+.mailUsuario{
+	background-color: white;
+	padding: 4%;
+	margin-top: 7%;
+	border: 1px solid white;
+	border-radius: 4px;
+	color: lightgray;
+}
+
+.mailUsuario2{
+	background-color: white;
+	margin-top: 2%;
+	border: 1px solid white;
+	border-radius: 4px;
+	color: lightgray;
+}
