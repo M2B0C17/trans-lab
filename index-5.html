@@ -20,7 +20,84 @@
     <!-- CSS -->
     <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
-<body>
+<body class="fondoSec3">
+    <!-- Sección navbar -->
+        <div class="col s12">
+            <nav class="navbar navbar-inverse indexSec2A">
+                <div class="container-fluid">
+                    <!-- Los elementos se agrupan para la vista mobile -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle left collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand logoSec2Nav" href="#">TRANS - LAB</a>
+                    </div>
+                    <!-- Elementos que van al desplegarse -->
+                    <div class="collapse navbar-collapse collapseMediano" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#"><i class="fa fa-usd iconAmarillo" aria-hidden="true"></i>  Ver Saldo</a></li>
+                            <li><a href="#"><i class="fa fa-calculator iconAmarillo" aria-hidden="true"></i>  Calcular Tarifa</a></li>
+                            <li><a href="#"><i class="fa fa-user iconAmarillo" aria-hidden="true"></i>  Perfil</a></li>
+                            <li><a href="#"><i class="fa fa-question iconAmarillo" aria-hidden="true"></i>  Preguntas Frecuentes</a></li>
+                            <li><a href="#"><i class="fa fa-home iconAmarillo" aria-hidden="true"></i>  Home</a></li>
+                        </ul>
+                    </div><!-- navbar-collapse -->
+                </div><!-- container-fluid -->
+            </nav>
+            <!-- Fin Navbar -->
+            <!-- Seccion 5 Ver Saldo -->
+            <section class="baseVerSaldo">
+                <div class="container">
+                    <div class="row">
+                        <!-- Input -->
+                        <div class="input-field col s12">
+                            <input id="numTarjeta" type="number" class="validate">
+                            <label>Numero tarjeta</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- Select -->
+                <div class="container">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <select>
+                              <option value="" disabled selected>Choose your option</option>
+                              <option value="1"></option><!-- ACÁ VAN LAS TARJETAS GUARDADAS -->
+                              <option value="2"></option>
+                              <option value="3"></option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <!-- Button -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col s12">
+                            <div>
+                                <a class="waves-effect waves-light btn-large botonSec1 marginBTNSec2" data-toggle="collapse"  href="#one" aria-expanded="true" aria-controls="one">VER SALDO</a>
+                                <!-- Collapsed -->
+                                <div class="col-md-7 col-md-offset-1 cajaCollapsedSaldo">
+                                <div class="col-md-7 col-md-offset-1 cajaCollapsedSaldo ">
+                                    <div id="one" class="panel-collapse collapse on" role="tabpanel" aria-labelledby="one">
+                                        <div class="cajaTextTitCollapsed">
+                                            <h4 class="textTitCollapsed">SALDO TOTAL</h4>
+                                        </div>
+                                        <div class="panel-body textsaldoSec5" id="saldo">
+                                            ACÁ VA EL SALDO
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Fin Seccion 5 Ver Saldo -->
+
+
 	<!-- JAVASCRIPT es preferible como ultima linea en el body -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <!-- JQuery -->

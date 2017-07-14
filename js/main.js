@@ -1,5 +1,6 @@
 $(document).ready(function() {
-	// Iniciando collapse button
-	
+	// Iniciando select
+    $('select').material_select();
+    
 
 });
