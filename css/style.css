@@ -139,13 +139,13 @@ a:hover{
 
 /* HTML 3 */
 .profile-userpic img {
-  float: none;
-  margin: 0 auto;
-  width: 70%;
-  height: 70%;
-  -webkit-border-radius: 50% !important;
-  -moz-border-radius: 50% !important;
-  border-radius: 50% !important;
+	float: none;
+	margin: 0 auto;
+	width: 70%;
+	height: 70%;
+	-webkit-border-radius: 50% !important;
+	-moz-border-radius: 50% !important;
+	border-radius: 50% !important;
 }
 
 .body3{
@@ -229,7 +229,7 @@ a:hover{
 	font-size: 12px;
 	text-align: center;
 	color: white;
-	padding-top: 3%;
+	padding-top: 2%;
 }
 
 .textsaldoSec5{
@@ -243,3 +243,8 @@ a:hover{
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 /* HTML 6 */
+.colorSelectSec6{
+	color: black;
+}
+
+/* Fin HTML 6 */
